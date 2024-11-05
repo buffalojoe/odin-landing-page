@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 50px 4px 50px;
+    background-color: #1F2937;
+    margin: -10px;
+}
+
+.header-right, .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-left h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-left {
+    margin-left: 200px;
+}
+
+.header-right {
+    margin-right: 200px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;  
+    gap: 16px;
+}
