@@ -1,38 +1,126 @@
-body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.header {
+.container1 {
     display: flex;
+    border-style: solid;
+    border-color: black;
     justify-content: space-between;
-    padding: 4px 50px 4px 50px;
-    background-color: #1F2937;
-    margin: -10px;
 }
 
-.header-right, .header-left {
-    display: flex;
-    align-items: center;
+.container1-left {
+    border-style: solid;
+    border-color: black;
     justify-content: center;
-    font-size: 18px;
-    color: #E5E7EB;
+    margin-left: 100px;
 }
 
-.header-left h1 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.header-left {
-    margin-left: 200px;
-}
-
-.header-right {
-    margin-right: 200px;
-}
-
-ul {
+.container1-right {
     display: flex;
-    list-style-type: none;  
+    border-style: solid;
+    border-color: black;
+    align-items: center;
     gap: 16px;
+    margin-right: 100px;
+}
+
+.container2 {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+}
+
+.container2-left {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+}
+
+.container2-right {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.container3-boxes {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    gap: 16px;
+}
+
+.box-text {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-text h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box-text p {
+    margin-top: 0px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+}
+
+.container4-p {
+    display: flex;
+    flex-direction: column;
+}
+
+.got {
+    align-self: flex-end;
+}
+
+.container5 {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+}
+
+.container5-banner-left {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.container5-banner-right {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.container6 {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
 }
